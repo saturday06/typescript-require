@@ -8930,7 +8930,7 @@ declare var SVGElementInstance: {
 }
 
 interface MSNamespaceInfoCollection {
-    length: number;
+    length: string;
     add(namespace?: string, urn?: string, implementationUrl?: any): Object;
     item(index: any): Object;
     [index: string]: Object;
